@@ -92,10 +92,31 @@ header.advanced img {
 .advanced-search-container {
 	margin: 50px 40px;
 }
+.advanced-search-container p {
+	display: inline-block;
+	width: 16%;
+	font-size: 20px;
+}
+
+.advanced-search-container .advanced-search {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	padding: 10px 0;
+}
+.advanced-search-container .advanced-search label {
+	width: 16%;
+	font-size: 14px;
+}
+.advanced-search-container .advanced-search input[type=text] {
+	width: 49%;
+	padding: 2px 0;
+}
 
 p.advanced-p {
 	color: red;
 	font-size: 18px;
+	margin-left: 10px;
 }
 
 .blue-button {
