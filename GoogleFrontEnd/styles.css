@@ -13,9 +13,6 @@ header a {
     color: black;
     padding: 10px;
     text-decoration: none;
-}
-  
-nav a{
 	margin-left: auto;
 }
 
@@ -71,8 +68,4 @@ input[type="submit"]:hover {
 .search-container .search-field input {
 	border: none;
 	border-radius: 25px;
-}
-
-.search-container .search-field img {
-	width: 21px;
 }
