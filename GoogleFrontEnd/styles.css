@@ -77,3 +77,11 @@ input[type="submit"]:hover {
 	border: none;
 	border-radius: 25px;
 }
+
+header.advanced {
+	background-color: lightgray;
+}
+
+header.advanced img {
+	width: 75px;
+}
