@@ -18,7 +18,10 @@ header a {
 nav {
 	display: flex;
 	align-items: center;
+	/* push the nav to the right */
 	margin-left: auto;
+	/* move it a bit back away from the edge */
+	margin-right: 10px;
 }
 
 nav a:hover {
