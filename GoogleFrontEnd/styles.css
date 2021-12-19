@@ -110,6 +110,11 @@ header.advanced img {
 	padding: 2px 0;
 }
 
+.advanced-search-container .advanced-search p {
+	width: 16%;
+	font-size: 14px;
+}
+
 p.advanced-p {
 	color: red;
 	font-size: 18px;
