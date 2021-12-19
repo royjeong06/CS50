@@ -7,13 +7,13 @@ body {
 header {
     display: flex;
     align-items: center;
+	flex-flow: flow-reverse;
 }
 
 header a {
     color: black;
     padding: 10px;
     text-decoration: none;
-	float: right;
 }
 
 input {
