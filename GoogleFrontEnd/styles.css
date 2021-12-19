@@ -93,9 +93,7 @@ header.advanced img {
 	margin: 50px 40px;
 }
 
-.advanced-search-container
-
-.advanced-p {
+p.advanced-p {
 	color: red;
 	font-size: 18px;
 }
