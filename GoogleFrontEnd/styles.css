@@ -16,8 +16,6 @@ header a {
 }
 
 nav {
-	display: flex;
-	flex-flow: row-reverse;
 	float: right;
 }
 
@@ -85,4 +83,8 @@ header.advanced {
 
 header.advanced img {
 	width: 75px;
+}
+
+.advanced-search-container {
+	margin: 10px;
 }
