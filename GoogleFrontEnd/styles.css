@@ -41,9 +41,9 @@ img {
 	align-items: center;
 	margin: 10px;
 	padding-left: 15px;
-    
-    input {
-		border: none;
-		border-radius: 25px;
-	}
+}
+
+.search-field > input {
+	border: none;
+	border-radius: 25px;
 }
