@@ -26,6 +26,7 @@ nav a:hover {
 input {
     font-size: 16px;
     width: 300px;
+	padding: 13px 0;
 }
 
 input:focus {
@@ -85,5 +86,24 @@ header.advanced img {
 }
 
 .advanced-search-container {
-	margin: 10px;
+	margin: 50px 40px;
+}
+
+.advanced-search-container
+
+.advanced-p {
+	color: red;
+	font-size: 18px;
+}
+
+.blue-button {
+	background-color: dodgerblue;
+	color: white;
+	font-size: 16px;
+	max-width: 200px;
+	border-radius: 0px;
+	border: 1px solid #156bbd;
+	float: right;
+	padding: 10px 2px;
+	margin: 0;
 }
