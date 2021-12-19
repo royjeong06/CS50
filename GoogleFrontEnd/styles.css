@@ -1,43 +1,134 @@
-nav a{
-    color:black;
-    margin: 20px;
-    text-decoration:none;
-}
-
-body{
-    margin:0px;
-}
-
-nav{
-    display: flex;
-    flex-flow: row-reverse;
-}
-
-nav a:hover{
-    text-decoration: underline;
+body {
+	margin: 0px;
+	height: 100vh;
+	font-family: Arial, sans-serif;
 }
 
 header {
-	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-	font-size: 16px;
+    display: flex;
+    align-items: center;
 }
 
-form {
-	text-align: center;
-	padding: 10px;
-	box-sizing: border-box;
+header a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav {
+
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+nav a:hover {
+	text-decoration: underline;
 }
 
 input {
-	border-radius: 50px;
-	margin: 5px;
-	padding: 10px;
-	border: 1px;
+    font-size: 16px;
+    width: 300px;
+	padding: 13px 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="text"] {
+	color: #464646;
+	margin: 0 0 0 5px;
+}
+
+input[type="submit"] {
+	font-size: 14px;
+	width: 185px;
+	border-width: 0px;
+	border-radius: 15px;
+	margin: 20px;
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0px 0px 2px darkslategrey;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	height: 90%;
+}
+
+.search-container .search-field {
+	display: flex;
+	flex-direction: row;
+	border-radius: 25px;
+	border: 1px solid black;
+	align-items: center;
+	margin: 10px;
+	padding-left: 15px;
+}
+
+.search-container img {
+	width: 250px;
+}
+
+.search-container .search-field input {
+	border: none;
+	border-radius: 25px;
+}
+
+header.advanced {
 	background-color: lightgray;
 }
 
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+header.advanced img {
+	width: 75px;
+}
+
+.advanced-search-container {
+	margin: 50px 40px;
+}
+
+.advanced-search-container form > p {
+	display: inline-block;
+	width: 16%;
+	font-size: 16px;
+}
+
+.advanced-search-container .advanced-search {
+	display: flex;
+	align-items: center;
+	padding: 10px 0;
+}
+
+.advanced-search-container .advanced-search input[type=text] {
+	width: 49%;
+	padding: 2px 0;
+}
+
+.advanced-search-container .advanced-search p {
+	width: 16%;
+	font-size: 14px;
+}
+
+p.advanced-p {
+	color: red;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+.blue-button {
+	background-color: dodgerblue;
+	color: white;
+	font-size: 16px;
+	max-width: 200px;
+	border-radius: 0px;
+	border: 1px solid #156bbd;
+	float: right;
+	padding: 10px 2px;
+	margin: 0;
 }
