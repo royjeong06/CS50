@@ -16,7 +16,9 @@ header a {
 }
 
 nav {
-	float: right;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
 }
 
 nav a:hover {
