@@ -18,7 +18,7 @@ header a {
 nav {
 	display: flex;
 	flex-flow: row-reverse;
-	margin-left: 0vmax;
+	float: right;
 }
 
 nav a:hover {
