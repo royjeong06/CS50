@@ -64,7 +64,15 @@ input[type="submit"]:hover {
 	padding-left: 15px;
 }
 
+.search-container img {
+	width: 200px;
+}
+
 .search-container .search-field input {
 	border: none;
 	border-radius: 25px;
+}
+
+.search-container .search-field img {
+	width: 21px;
 }
