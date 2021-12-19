@@ -7,13 +7,21 @@ body {
 header {
     display: flex;
     align-items: center;
-	flex-flow: row-reverse;
 }
 
 header a {
     color: black;
     padding: 10px;
     text-decoration: none;
+}
+
+nav {
+	display: flex;
+	flex-flow: row-reverse;
+}
+
+nav a:hover {
+	text-decoration: underline;
 }
 
 input {
